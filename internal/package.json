@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@stencil/core": "^0.18.0",
+    "@stencil/sass": "^0.1.1"
+  }
+}

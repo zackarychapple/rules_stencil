@@ -1,0 +1,8 @@
+load("@build_bazel_rules_nodejs//:defs.bzl", "nodejs_binary")
+
+nodejs_binary(
+    name = "stencil",
+    entry_point = "build_bazel_rules_stencil_deps/node_modules/@stencil/core",
+    visibility = ["//visibility:public"],
+    node_modules = "@build_bazel_rules_stencil_deps//:node_modules",
+)
